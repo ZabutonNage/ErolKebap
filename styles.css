@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    flex: 0 1 720px;
+    max-width: 720px;
+    box-sizing: border-box;
+    padding: 0 2rem 2rem 2rem;
+    background-color: #ff8;
+}
+
+h1, .subtitle {
+    text-align: center;
+}
+
+.entry-img img {
+    display: block;
+    width: 100%;
+}
+
+.entry-info {
+    margin: 1rem 0;
+}
+
+.entry-info-highlights {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.entry-info-split {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry-info-block {
+}
+
+.meal-placeholder, .menu-placeholder {
+    height: 400px;
+    background-color: grey;
+}
