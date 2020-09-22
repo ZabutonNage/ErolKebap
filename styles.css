@@ -7,6 +7,7 @@ body {
     background-color: #222;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
 }
 
 main {
@@ -33,6 +34,16 @@ h1, .subtitle {
 .entry-info-highlights {
     text-align: center;
     margin-bottom: 1.5rem;
+}
+
+@media (max-width: 550px) {
+    .entry-info-highlight-separator {
+        display: none;
+    }
+    .entry-info-highlights-responsive {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .entry-info-split {
