@@ -54,7 +54,10 @@ h1, .subtitle {
 .entry-info-block {
 }
 
-.meal-placeholder, .menu-placeholder {
-    height: 400px;
-    background-color: grey;
+.meal-container a,
+.meal-container a img,
+.menu-container a,
+.menu-container a img {
+    display: block;
+    width: 100%;
 }
